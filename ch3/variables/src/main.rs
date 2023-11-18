@@ -25,5 +25,9 @@ fn main() {
     let truncated = -5 / 3; // Results in -1
 
     let remainder = 43 % 5;
+
+    // booleans
+    let t = true;
+    let f: bool = false;
 }
 
