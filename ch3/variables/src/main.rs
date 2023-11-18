@@ -18,7 +18,7 @@ fn main() {
     let y: f32 = 3.0; // f32
     
     let sum = 5 + 10;
-    let difference = 95.5 4.3;
+    let difference = 95.5 - 4.3;
     let product = 4 * 30;
 
     let quotiend = 56.7 / 32.2;
@@ -29,5 +29,10 @@ fn main() {
     // booleans
     let t = true;
     let f: bool = false;
+
+    // chars
+    let c = 'z';
+    let z: char = 'ℤ';
+    let heart_eyed_cat = '😻';
 }
 
