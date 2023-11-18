@@ -34,5 +34,14 @@ fn main() {
     let c = 'z';
     let z: char = 'ℤ';
     let heart_eyed_cat = '😻';
+
+    // tuple
+    // they cannot modify their size (can´t grow or shrink)
+    // the tuple type can be omitted
+    let tup: (i32, f64, u8) = (500, 6.4, 1);
+
+    // we can use destructuring
+    let (x, y, z) = tup;
+    println!("The value of y is: {y}");
 }
 
