@@ -43,5 +43,11 @@ fn main() {
     // we can use destructuring
     let (x, y, z) = tup;
     println!("The value of y is: {y}");
+
+    // we can access tuple items individually
+    let five_hundred = tup.0;
+    let six_point_four = tup.1;
+    let one = tup.2;
+
 }
 
