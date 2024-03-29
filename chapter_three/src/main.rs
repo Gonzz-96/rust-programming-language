@@ -72,4 +72,5 @@ fn arrays() {
 
 fn another_function() {
     println!("Another function");
+    println!("Another functino, bro");
 }
